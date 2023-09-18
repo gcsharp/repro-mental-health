@@ -1,0 +1,12 @@
+name: "PSY3462: Women's Reproductive Mental Health"
+navbar:
+  type: inverse
+  title: "PSY3462: Women's Reproductive Mental Health"
+  left:
+    - text: "Handbook"
+      href: index.html
+output_dir: "docs"
+output:
+  html_document:
+    theme: journal
+

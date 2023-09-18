@@ -1,0 +1,249 @@
+---
+title: "PSY3462 - Women's Reproductive Mental Health: Module Handbook"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
+---
+
+<center>![](images/uterus_etsy.jpg){height="500px"}</center>
+
+---
+
+# Introduction
+
+Welcome to the PSY3462 handbook, which contains all the information you need about this module. If you think anything is missing, please let me know!
+
+---
+
+# Practical stuff
+
+## Module convener
+
+I'm [Dr Gemma Sharp](https://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Gemma_Sharp) and I'm your module convenor for Women’s Reproductive Mental Health. I'm passionate about lots of things, but chiefly women's health, research, data, and cats, so I'm very glad that I get to teach this module (although it is a bit light on cats tbh). 
+
+## Keeping in touch
+
+Please don't hesitate to talk to me before, during or after the Tuesday teaching sessions if you have anything you'd like to discuss in private. You can also email me (g.c.sharp) about anything related to your personal circumstances.
+
+If you want to discuss something practical that might help other students too (e.g. "Where do I find xxx?", "When is the essay due?", etc), then please post your question on our [Teams] channel. This is also the right place to discuss or share material relevant to the content of the course.
+
+
+## Course structure
+
+### Tuesday 3 hour sessions
+
+Each week, the 3 hours timetabled on a Tuesday will consist of a mixture of lecture style delivery and class/group discussions and activities about key aspects of that week's topic. This will all be in-person.
+
+### Outside-of-session materials
+
+Each week there will be required and optional materials (reading, videos, podcasts, and activities) for you to engage with for each topic. You should be spending about 1.5-2 hours per week on this stuff.
+
+**Required pre-session material** - I expect the required reading/viewing/activities to be done prior to the Tuesday session, as aspects of the material will be discussed during class. Bring materials and any notes along with you to the Tuesday session.
+
+**Optional material** - The optional/suggested reading is a chance for you to not only consolidate the information from the Tuesday session, but to explore areas of the week's topic that may not necessarily be covered in the session. I encourage you to go beyond the reading lists and read on aspects of the topic you are interested in.
+
+If there are things you would like to know more about and they are not mentioned in the lecture or covered by the optional reading, please let me know! Feel free to share with your coursemates too, via Teams.
+
+## Schedule
+
+```{r handbook-chunk1, echo=FALSE, results = "asis" }
+library(knitr)
+ToC <- data.frame(Week = c(1:11),
+                  Date = rep(c("19th Jan","26th Jan","2nd Feb","9th Feb","16th Feb","23rd Feb","2nd Mar","9th Mar","16th Mar","23rd Mar","30th Mar")),
+                  Theme = c(rep("Understanding women",4),rep("Reproductive mental health",4),rep("Psychiatric disorders",3)),
+                  Topic = c("What do we mean by women's mental health?","Fundamentals of female physiology","Sex/gender differences in psychology","Sociocultural impacts on women's health", "Menstrual and mental health", "Perinatal mental health", "Menopause and mental health", "Fertility and mental health", "Psychiatric disorders in women", "Research sandpit", "Deep dive: eating disorders and PTSD"),
+                  Room = rep("Seminar Room A/LSI",11))
+
+ToC$Room[ToC$Week==8] <- "Lecture Theatre C/Streatham Court"
+kable(ToC)
+```
+
+---
+
+# Assessments
+
+## Coursework
+
+Your coursework takes the form of a research proposal and will comprise 40% of the marks for the module.
+
+More information about the coursework and marking criteria will be given in Week 1 and posted on the ELE page under the assessment tile.
+
+The coursework is due on XXXX.
+
+### Coursework formatting
+
+Please ensure your coursework is formatted correctly. 
+
+  - Font size: 11-point in Times New Roman, Arial or Calibri
+  - Margins: 30mm on the left-hand side, 20mm on the right-hand side and top/bottom margins
+  - Typing: Single spacing
+  - Figures and tables: Up to two figures and two tables. No more than 50 words in figures and no more than 100 in tables.
+  - Numbering of pages: All pages should be numbered consecutively 
+
+## Exam
+
+You will be required to undertake an examination (worth 60%) where you will be expected to complete two exam essay questions from a list of four provided. Each question will have a word limit of 1500 words and you are not expected to provide a reference list.
+
+The exam is an option 1 exam which will be available for 24 hours, but the questions are designed to be answered to a high standard in 2 hours. Some individuals will have extra allocated time for the essay, but the exam should not take 24 hours.
+
+---
+
+# What you'll learn and how
+
+## Intended Learning Outcomes
+
+On successfully completing the module you will be able to...
+
+### Module-specific skills:
+
+  1. Describe and evaluate **biopsychosocial influences** on women's mental health throughout the reproductive lifecourse
+  2. Design and critically evaluate **research** relevant to wome's reproductive mental health
+  3. Describe and evaluate biological, psychological and social approaches to **improve** womens reproductive mental health
+
+### Discipline-specific skills:
+
+  4. Acquire and demonstrate detailed, systematic and critical knowledge and understanding
+  5. Review and critically evaluate published work at an advanced level to allow you to synthesise logical, coherent and sustained arguments to support conclusions
+  6. Demonstrate critical, creative and independent thinking, and fully appreciate the complexities of relevant issues
+  7. Design novel research, and critically evaluate research approaches and evidence to assess the reliability of empirical evidence
+
+### Personal and key skills:
+
+  8. Interact effectively and supportively within a learning group
+  9. Manage your own learning with minimum guidance
+  10. Engage effectively in debate in a professional manner and produce detailed and coherent written work
+  11. Identify complex problems and apply appropriate knowledge and methods for their solution with confidence and flexibility
+
+## A focus on research and evidence
+
+The Scientist Practitioner Model (Shapiro, 2002) means using science to inform clinical practice, and vice versa. Clinical practice is therefore "scientifically-informed" or "evidence-based". In this module, we will be developing the skills clinical psychologists need to take a scientifically informed viewpoint. For those of us who aren't planning to work clinically, we'll be developing the skills needed to pursue research that can (eventually) inform clinical guidelines. Therefore, we could all benefit from doing the following:
+
+- Viewing the world (and especially your own assumptions and beliefs) critically and curiously. If you think something might be true, don't be afraid of being wrong, and in fact, seek out the evidence to prove that you are. Test rather than blindly reinforce hypotheses.
+- Understanding what constitutes “good” data/research and what constitutes less “good” data/research and then applying those standards to the evidence you’re working with. 
+- Understanding that “evidence informed practice” isn’t always just about trial evidence, it’s also about experimental and epidemiological evidence about core processes and mechanisms in human emotion and behaviour that help to explain mental health problems.
+
+## Pedagogical (Teaching) Approach
+
+This module aims not only to teach you core content, but also to help you apply a lot of the critical thinking skills you have been learning for the past 2+ years. It aims to help you consolidate and synthesise this knowledge in new ways to understand and describe complex ideas.
+
+You may be used to lectures and text heavy powerpoint slides. You may think that these are great because they guide you through a topic in a structured fashion and you feel secure that you have all the material you'll need for the exam. The bad news is that this approach facilitates *passive* learning only, and has been demonstrated to reduce actual long-term learning. The good news is that this course instead encourages you to take an *active* learning approach, and this is associated with longer-term and more effective learning.
+
+You will still have written learning materials, but these are intended as only broad guides to help organise the seminar structure (accepting that we will be flexible with the structure some weeks - if we get into a really juicy debate about something engaging, we might stick with that rather than rushing through the remaining slides for the sake of it). The focus will be much more on encouraging you to organise the material for yourselves, to sort through what is and isn't important, to reflect on the content, to manipulate knowledge, and to apply it. 
+
+The teaching and leadning activities used in this module will be varied. Sometimes we will focus primarily on lecture and discussions. Sometimes the session will be organised around small group learning tasks, which will then be shared with the rest of the group.
+
+### Example teaching and learning activities
+
+The teaching and learning activities that you engage with throughout this module are designed to develop your skills in critical thinking, synthesis of ideas, and (persuasive) communication. These skills will be helpful for the assessments, but they are also transferable skills that can help in your life and work beyond university.
+
+In all cases, you will find it useful to make notes and to contribute to the discussions and group work.
+
+- **Video lecture:** a lecture recorded by me or someone else for you to watch before coming to the Tuesday session. These are usually designed to give a broad overview of a topic or to explain a concept that will be fundamental to your understanding of the topic.
+- **Scientific paper reading:** a paper for you to read and digest prior to coming to the Tuesday session. You might be asked just to read and try to understand, or to critically appraise the paper (i.e. comment on its strengths and weaknesses).
+- **Online article reading:** sometimes, you will be asked to read online articles written by or for non-scientists. These are sometimes useful for providing a general overview or a different perspective.
+- **Online video:** there are some brilliant videos online that can provide clear, concise introductions to basic concepts. Sometimes I will point you to these to watch before coming to a session. There are also excellent videos online that can help you hear from and consider different perspectives, including the perspectives of patients.
+- **Group discussion:** either in small groups or sometimes as part of the whole class, I will guide a discussion around a topic. It can help to talk through ideas as a group and listen to the ideas and perspectives of others.
+- **Debate:** you will be put into two (or more) groups and asked to come up with an argument for or against a statement. The groups will then take it in turns to present their arguments and respond to each other.
+- **Research sandpit:** emulating working in an interdisciplinary research team, you will work in a group to design a research study to address a specific research question.
+- **Group presentation:** you will work in small groups to research a topic, synthesise an argument or narrative and then present to the rest of the class. This is excellent preparation for essay writing. The presentation itself might take the form of a lecture, poster or infographic.
+- **Quiz:** quizzes can be useful for checking your understanding of basic (fact-based) information. It can sometimes be a confidence boost for the exam to know that you are retaining and can recall this kind of information.
+
+---
+
+# Expectations for class behaviour
+
+### Be nice
+
+We are all adults and we should treat each other accordingly. Therefore we can expect to work in an environment that supports mutual respect and thoughtfulness. As a general rule, if you ever feel critical of another person, please try to put yourself in that person’s shoes for a moment. Use what you learn from that to inform your perspective, and then act accordingly. In all interactions (including with me), look for ways to balance responsibility and to arrive at mutually beneficial, practical, and solution-focused outcomes are typically the best way forwards. See the advice on group work below.
+
+### Do the work
+
+Please engage with the pre-session materials before coming to the Tuesday sessions. Often, there will be group learning tasks where you will need to build on the pre-session material in class. If you have not looked at it, you will be letting your group down.
+
+During the sessions, please try to contribute to the discussions. I know that 'group work' and 'presentations' may sound like horrifying experiences to some. I really do empathise, but you will get so much more out of this module if you engage with these sessions. See the advice on group work below (you don't have to be a super confident extrovert to excel in group work).
+
+### Turn up
+
+We do not require attendance, although we highly encourage it. This is your investment and you will get as much out of it as you put into it. Although you'll get some written material, these are just intended to support your learning, and the main content of what is taught will be in the Tuesday sessions. The readings and powerpoints will not be enough to do well in the assessments for this module.
+Perhaps crucially, **sessions will not be recorded**.
+
+---
+
+# Study skills advice
+
+## Reading and making notes
+
+This video explains why it's important to read scientific papers, how they're structured, and one approach to reading papers that you might find useful:
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H3aaXOrlAyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+Reading learning content with a goal is always more effective. Make notes as you're reading, and try to get a sense of the main points/arguments of the article. What is this article trying to say? If you had to explain the main point of the article in three sentences to a non-psychology family member, what would you say?
+
+1. **Be able to critique the detail of the article.** Given the main points of the article, what evidence do the authors present to support their argument/points? Is the evidence good evidence? Why or why not? Sometimes it may be that the logic of leading to their hypotheses are weak. Sometimes it may be that the design/methods/statistics are weak and/or lacking. Sometimes their conclusions may leave a lot of questions unanswered. Write down 2-3 main critiques (these could be criticisms or praise) for the article.
+
+2. **Synthesise!** There are three primary synthesis challenges in this module:
+
+    a. Synthesising links between the readings for *each topic* (i.e., each week): Are there any common threads between the articles? Does one article inform another article? (e.g., does an article about effects of estradiol on depression inform findings from another article about the link between menopause and mental health?) State 1 or 2 ways that the articles inform each other.
+    b. Synthesising links between each reading and *the overall course*: This is a course about women’s mental health, but not all the articles will necessarily be directly about women’s mental health. It doesn’t mean that it doesn’t pertain to women’s mental health, and one of the challenges of the course will be applying material to women’s mental health. For each article, state at least one way it pertains to women’s mental health. OR, find a theme for the articles for the week and state how that theme pertains to women’s mental health.
+    c. Synthesising links *between topics* (i.e. between weeks): think about how the readings for each week pertain to topics from previous weeks. Are there any links? Where you notice this, write it down!
+
+## Working in groups
+
+Everyone has a style. Our styles may be determined in part by our thresholds and tolerance for anxiety/distress, our drive for and experience of pleasure/reward, our inhibitory style/capability, our preferences for routine or for novelty, amongst other things. For each person, where we fall along these continua will be both a strength and a weakness, depending on what the context/situation demands of an individual at any given moment. Please keep that in mind. There is no one way of being that is, at all times, superior to another way of being.
+
+::: {.warning style="padding:1.0em; background-color:seashell; color:#cd5b45"}
+<details>
+  <summary>**Click to see an example**</summary>
+
+Being organised and getting things done quickly can be a real strength. Sometimes individuals with these styles will describe feeling a sense of pressure and some anxiety straight away when tasks are provided. Thus, getting things done quickly, and having a good plan for getting them done can help to relieve this pressure and anxiety, and can also provide these individuals with a sense of accomplishment and reward. All of these things are positives in many contexts. At the same time, though, there are contexts where it is better to wait and get more information, to sit and tolerate and accept uncertainty, to throw out rule books and approach situations from novel perspectives. There are also situations where there are many things to do, and it is not possible to get everything done in a quick and timely fashion. These individuals can struggle to meet the demands of those kinds of situations and that can produce stress and anxiety for them.
+
+Other individuals may have a style that has a high tolerance for anxiety, openness to new experiences and sensitivity to reward. Those individuals may be flexible to contextual demands, creative in their thinking, and willing (and even excited) to take on challenges. Our society (and science!) has certainly benefited from creative and novel approaches and individuals who were willing to take chances and to dive into uncharted territory. However, those individuals may not get tasks done as quickly, because they may not feel the pressure and anxiety needed to get tasks done until later, and they may not do things in a straightforward, strategic fashion. This may cause them some distress.
+
+</details>
+
+:::
+
+<br>
+The point is, everyone has different kinds of skills that contribute to their style, and for everyone, their style will be both a strength and a weakness.
+
+In this class, we will have group based activities. As you work on these activities together, be aware of what your strengths are. Are you good at creative thinking? Are you good at systematically finding good research and references? Are you good at planning out clear responses? Are you good at directing and managing a group in its tasks?
+
+When working in your groups, **let people know what your strengths are**, and try to stick with tasks that are better suited to your strengths. Not everyone is a leader, and that’s okay. But also, leadership demands can vary by context, so you may find that you are well suited for a leadership role in one context but not another.
+
+And always, be patient with your group members who are different from you. Remember, we need every style in this world, and although you might currently find yourself in a context where your strengths might shine, there will be another where you will need your group member’s strength.
+
+Likewise, if you find yourself struggling on one of the tasks, because it’s doesn’t meet your strength – hang in there. We all will have this, and your moment too will come.
+
+---
+
+# Wellbeing
+
+Sometimes in this class we will discuss trauma, mental and physical health problems, and other topics that may be sensitive to you. Sometimes it will be clear that we will be discussing this ahead of time and you can plan/prepare, but other times it will simply be part of the course content, or may rise naturally as part of discussions.
+
+If you are aware of certain topics ahead of time and you are concerned that these may be difficult for you, I would encourage you to speak to me about this and we can think of a plan to help you get the course content you need whilst managing the sensitivities you might have.
+
+Also, I would encourage you, where and when you are comfortable doing so – to:
+
+  A. Try to expose yourself in a safe and comfortable fashion to distressing content (i.e., if your distress is above a 6 or 7 on a 0-10 scale, this may require additional steps being taken)
+  B. Where comfortable for you, discuss your feelings with safe and trusted friends and family members. However, please be sure to talk to people who you trust.
+
+## Wellbeing resources
+
+- Wellbeing Service - www.exeter.ac.uk/wellbeing/
+- Online resources- Wellbeing workbooks – CEADAR have developed workbooks to support wellbeing https://www.exeter.ac.uk/wellbeing/support/covidwellbeingapproaches/
+- Togetherall – an online support service which offers help and companionship 24 hours a day, 7 days a week, 365 days a year - https://togetherall.com/en-gb/
+- SilverCloud – SilverCloud offers secure, immediate access to online Cognitive Behavioural Therapy programmes, tailored to your specific needs - https://www.exeter.ac.uk/wellbeing/
+- Fika app – All students have access to Fika, a Mental Fitness platform designed to help you improve your Seven Skills of Mental Fitness. Search for 'Fika' and download from the App Store or Google Play Store; you can register using your University email address
+- Webinars - Wellbeing teams have also recorded numerous webinars on a range of subjects https://www.exeter.ac.uk/wellbeing/support/workshopsandwebinars/
+- https://studentspace.org.uk/ – led by Student Minds, the UK’s student mental health charity, Student Space is a national resource which is designed to make it easier for you to find the support you need during COVID-19, with a wealth of resources available
+- Headspace- meditation, anxiety and stress - https://www.headspace.com/
+
+---
