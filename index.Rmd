@@ -53,12 +53,12 @@ If there are things you would like to know more about and they are not mentioned
 ```{r handbook-chunk1, echo=FALSE, results = "asis" }
 library(knitr)
 ToC <- data.frame(Week = c(1:11),
-                  Date = rep(c("19th Jan","26th Jan","2nd Feb","9th Feb","16th Feb","23rd Feb","2nd Mar","9th Mar","16th Mar","23rd Mar","30th Mar")),
-                  Theme = c(rep("Understanding women",4),rep("Reproductive mental health",4),rep("Psychiatric disorders",3)),
-                  Topic = c("What do we mean by women's mental health?","Fundamentals of female physiology","Sex/gender differences in psychology","Sociocultural impacts on women's health", "Menstrual and mental health", "Perinatal mental health", "Menopause and mental health", "Fertility and mental health", "Psychiatric disorders in women", "Research sandpit", "Deep dive: eating disorders and PTSD"),
-                  Room = rep("Seminar Room A/LSI",11))
+                  Date = c("16th Jan","23rd Jan","30th Jan","6th Feb","13th Feb","20th Feb","27th Feb","5th Mar","12th Mar","19th Mar","26th Mar"),
+                  Theme = c(rep("Foundations",3),rep("Life course deep dives",6),rep("Improving outcomes",1),"Consolidating"),
+                  Topic = c("An overview of women's reproductive mental health","Fundamentals of female physiology","Psychological and social influences on mental health","Early life, menarche, and adolescence", "Mental health throughout the menstrual cycle", "Menstrual disorders and mental health", "Pregnancy and perinatal mental health", "Menopause", "Fertility and parenting", "Improving outcomes through research and practice", "Revision activities"),
+                  Room = rep("Margaret Rooms 2-3, Queens Building",11))
 
-ToC$Room[ToC$Week==8] <- "Lecture Theatre C/Streatham Court"
+#ToC$Room[ToC$Week==8] <- "Lecture Theatre C/Streatham Court"
 kable(ToC)
 ```
 
