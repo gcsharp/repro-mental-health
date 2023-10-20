@@ -1,32 +1,23 @@
 ---
 title: "PSY3462 - Women's Reproductive Mental Health: Module Handbook"
-output:
-  html_document:
-    toc: yes
-    toc_float: yes
-    collapsed: no
-    number_sections: no
-    toc_depth: 2
-  word_document:
-    toc: yes
-    toc_depth: '2'
+output: word_document
 ---
-
+  
 <center>![](images/uterus_etsy.jpg){height="500px"}</center>
-
----
-
-# Introduction
-
-Welcome to the PSY3462 handbook, which contains all the information you need about this module. If you think anything is missing, please let me know!
-
----
-
-# Practical stuff
-
-## Module convener
-
-I'm [Dr Gemma Sharp](https://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Gemma_Sharp) and I'm your module convenor for Women’s Reproductive Mental Health. I'm passionate about lots of things, but chiefly women's health, research, data, and cats, so I'm very glad that I get to teach this module (although it is a bit light on cats tbh). 
+  
+  ---
+  
+  # Introduction
+  
+  Welcome to the PSY3462 handbook, which contains all the information you need about this module. If you think anything is missing, please let me know!
+  
+  ---
+  
+  # Practical stuff
+  
+  ## Module convener
+  
+  I'm [Dr Gemma Sharp](https://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Gemma_Sharp) and I'm your module convenor for Women’s Reproductive Mental Health. I'm passionate about lots of things, but chiefly women's health, research, data, and cats, so I'm very glad that I get to teach this module (although it is a bit light on cats tbh). 
 
 ## Keeping in touch
 
@@ -205,50 +196,51 @@ Reading learning content with a goal is always more effective. Make notes as you
 Everyone has a style. Our styles may be determined in part by our thresholds and tolerance for anxiety/distress, our drive for and experience of pleasure/reward, our inhibitory style/capability, our preferences for routine or for novelty, amongst other things. For each person, where we fall along these continua will be both a strength and a weakness, depending on what the context/situation demands of an individual at any given moment. Please keep that in mind. There is no one way of being that is, at all times, superior to another way of being.
 
 ::: {.warning style="padding:1.0em; background-color:seashell; color:#cd5b45"}
-<details>
+  <details>
   <summary>**Click to see an example**</summary>
-
-Being organised and getting things done quickly can be a real strength. Sometimes individuals with these styles will describe feeling a sense of pressure and some anxiety straight away when tasks are provided. Thus, getting things done quickly, and having a good plan for getting them done can help to relieve this pressure and anxiety, and can also provide these individuals with a sense of accomplishment and reward. All of these things are positives in many contexts. At the same time, though, there are contexts where it is better to wait and get more information, to sit and tolerate and accept uncertainty, to throw out rule books and approach situations from novel perspectives. There are also situations where there are many things to do, and it is not possible to get everything done in a quick and timely fashion. These individuals can struggle to meet the demands of those kinds of situations and that can produce stress and anxiety for them.
+  
+  Being organised and getting things done quickly can be a real strength. Sometimes individuals with these styles will describe feeling a sense of pressure and some anxiety straight away when tasks are provided. Thus, getting things done quickly, and having a good plan for getting them done can help to relieve this pressure and anxiety, and can also provide these individuals with a sense of accomplishment and reward. All of these things are positives in many contexts. At the same time, though, there are contexts where it is better to wait and get more information, to sit and tolerate and accept uncertainty, to throw out rule books and approach situations from novel perspectives. There are also situations where there are many things to do, and it is not possible to get everything done in a quick and timely fashion. These individuals can struggle to meet the demands of those kinds of situations and that can produce stress and anxiety for them.
 
 Other individuals may have a style that has a high tolerance for anxiety, openness to new experiences and sensitivity to reward. Those individuals may be flexible to contextual demands, creative in their thinking, and willing (and even excited) to take on challenges. Our society (and science!) has certainly benefited from creative and novel approaches and individuals who were willing to take chances and to dive into uncharted territory. However, those individuals may not get tasks done as quickly, because they may not feel the pressure and anxiety needed to get tasks done until later, and they may not do things in a straightforward, strategic fashion. This may cause them some distress.
 
 </details>
-
-:::
-
-<br>
-The point is, everyone has different kinds of skills that contribute to their style, and for everyone, their style will be both a strength and a weakness.
+  
+  :::
+  
+  <br>
+  The point is, everyone has different kinds of skills that contribute to their style, and for everyone, their style will be both a strength and a weakness.
 
 In this class, we will have group based activities. As you work on these activities together, be aware of what your strengths are. Are you good at creative thinking? Are you good at systematically finding good research and references? Are you good at planning out clear responses? Are you good at directing and managing a group in its tasks?
-
-When working in your groups, **let people know what your strengths are**, and try to stick with tasks that are better suited to your strengths. Not everyone is a leader, and that’s okay. But also, leadership demands can vary by context, so you may find that you are well suited for a leadership role in one context but not another.
+  
+  When working in your groups, **let people know what your strengths are**, and try to stick with tasks that are better suited to your strengths. Not everyone is a leader, and that’s okay. But also, leadership demands can vary by context, so you may find that you are well suited for a leadership role in one context but not another.
 
 And always, be patient with your group members who are different from you. Remember, we need every style in this world, and although you might currently find yourself in a context where your strengths might shine, there will be another where you will need your group member’s strength.
 
 Likewise, if you find yourself struggling on one of the tasks, because it’s doesn’t meet your strength – hang in there. We all will have this, and your moment too will come.
 
 ---
-
-# Wellbeing
-
-Sometimes in this class we will discuss trauma, mental and physical health problems, and other topics that may be sensitive to you. Sometimes it will be clear that we will be discussing this ahead of time and you can plan/prepare, but other times it will simply be part of the course content, or may rise naturally as part of discussions.
+  
+  # Wellbeing
+  
+  Sometimes in this class we will discuss trauma, mental and physical health problems, and other topics that may be sensitive to you. Sometimes it will be clear that we will be discussing this ahead of time and you can plan/prepare, but other times it will simply be part of the course content, or may rise naturally as part of discussions.
 
 If you are aware of certain topics ahead of time and you are concerned that these may be difficult for you, I would encourage you to speak to me about this and we can think of a plan to help you get the course content you need whilst managing the sensitivities you might have.
 
 Also, I would encourage you, where and when you are comfortable doing so – to:
-
+  
   A. Try to expose yourself in a safe and comfortable fashion to distressing content (i.e., if your distress is above a 6 or 7 on a 0-10 scale, this may require additional steps being taken)
-  B. Where comfortable for you, discuss your feelings with safe and trusted friends and family members. However, please be sure to talk to people who you trust.
+B. Where comfortable for you, discuss your feelings with safe and trusted friends and family members. However, please be sure to talk to people who you trust.
 
 ## Wellbeing resources
 
 - Wellbeing Service - www.exeter.ac.uk/wellbeing/
-- Online resources- Wellbeing workbooks – CEADAR have developed workbooks to support wellbeing https://www.exeter.ac.uk/wellbeing/support/covidwellbeingapproaches/
-- Togetherall – an online support service which offers help and companionship 24 hours a day, 7 days a week, 365 days a year - https://togetherall.com/en-gb/
-- SilverCloud – SilverCloud offers secure, immediate access to online Cognitive Behavioural Therapy programmes, tailored to your specific needs - https://www.exeter.ac.uk/wellbeing/
-- Fika app – All students have access to Fika, a Mental Fitness platform designed to help you improve your Seven Skills of Mental Fitness. Search for 'Fika' and download from the App Store or Google Play Store; you can register using your University email address
+  - Online resources- Wellbeing workbooks – CEADAR have developed workbooks to support wellbeing https://www.exeter.ac.uk/wellbeing/support/covidwellbeingapproaches/
+  - Togetherall – an online support service which offers help and companionship 24 hours a day, 7 days a week, 365 days a year - https://togetherall.com/en-gb/
+  - SilverCloud – SilverCloud offers secure, immediate access to online Cognitive Behavioural Therapy programmes, tailored to your specific needs - https://www.exeter.ac.uk/wellbeing/
+  - Fika app – All students have access to Fika, a Mental Fitness platform designed to help you improve your Seven Skills of Mental Fitness. Search for 'Fika' and download from the App Store or Google Play Store; you can register using your University email address
 - Webinars - Wellbeing teams have also recorded numerous webinars on a range of subjects https://www.exeter.ac.uk/wellbeing/support/workshopsandwebinars/
-- https://studentspace.org.uk/ – led by Student Minds, the UK’s student mental health charity, Student Space is a national resource which is designed to make it easier for you to find the support you need during COVID-19, with a wealth of resources available
+  - https://studentspace.org.uk/ – led by Student Minds, the UK’s student mental health charity, Student Space is a national resource which is designed to make it easier for you to find the support you need during COVID-19, with a wealth of resources available
 - Headspace- meditation, anxiety and stress - https://www.headspace.com/
-
----
+  
+  ---
+  
