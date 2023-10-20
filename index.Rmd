@@ -53,14 +53,16 @@ If there are things you would like to know more about and they are not mentioned
 ```{r handbook-chunk1, echo=FALSE, results = "asis" }
 library(knitr)
 ToC <- data.frame(Week = c(1:11),
-                  Date = c("16th Jan","23rd Jan","30th Jan","6th Feb","13th Feb","20th Feb","27th Feb","5th Mar","12th Mar","19th Mar","26th Mar"),
-                  Theme = c(rep("Foundations",3),rep("Life course deep dives",6),rep("Improving outcomes",1),"Consolidating"),
-                  Topic = c("An overview of women's reproductive mental health","Fundamentals of female physiology","Psychological and social influences on mental health","Early life, menarche, and adolescence", "Mental health throughout the menstrual cycle", "Menstrual disorders and mental health", "Pregnancy and perinatal mental health", "Menopause", "Fertility and parenting", "Improving outcomes through research and practice", "Revision activities"),
+                  Date = c("17th Jan","24th Jan","31st Jan","7th Feb","14th Feb","21st Feb*","28th Feb","6th Mar**","13th Mar","20th Mar","27th Mar"),
+                  Theme = c(rep("Foundations",3),rep("Life course deep dives",6),rep("Improving WRMH",1),"Consolidating"),
+                  Topic = c("An overview of women's reproductive mental health","Fundamentals of female physiology","Psychological and social influences on mental health","Early life, menarche, and adolescence", "Mental health throughout the menstrual cycle", "Menstrual disorders and mental health", "Pregnancy and perinatal mental health", "Menopause", "Fertility and parenting", "Improving WRMH through research and practice", "Revision activities"),
                   Room = rep("Margaret Rooms 2-3, Queens Building",11))
 
 #ToC$Room[ToC$Week==8] <- "Lecture Theatre C/Streatham Court"
 kable(ToC)
 ```
+* group presentations
+** coursework deadline
 
 ---
 
@@ -72,23 +74,23 @@ Your coursework takes the form of a research proposal and will comprise 40% of t
 
 More information about the coursework and marking criteria will be given in Week 1 and posted on the ELE page under the assessment tile.
 
-The coursework is due on XXXX.
+The coursework is due on Wednesday the 6th of March.
 
-### Coursework formatting
+### Coursework formatting and word count
 
-Please ensure your coursework is formatted correctly. 
+Please ensure your coursework is under 2000 words in total and is formatted correctly: 
 
-  - Font size: 11-point in Times New Roman, Arial or Calibri
-  - Margins: 30mm on the left-hand side, 20mm on the right-hand side and top/bottom margins
-  - Typing: Single spacing
-  - Figures and tables: Up to two figures and two tables. No more than 50 words in figures and no more than 100 in tables.
-  - Numbering of pages: All pages should be numbered consecutively 
+  - Font size: 11-point in Times New Roman, Arial or Calibri.
+  - Margins: at least 20mm for all margins.
+  - Typing: Single spacing.
+  - Figures and tables: Up to two figures and two tables. No more than 50 words in figures. Tables should be formatted as tables and not converted and inserted as images. Words in tables *will* contribute to the overall word count, but words in figures will not (purely because I would have to manually count words in figures to calculate the overall word count and I don't have the time or will to do this).
+  - Numbering of pages: All pages should be numbered consecutively.
 
 ## Exam
 
-You will be required to undertake an examination (worth 60%) where you will be expected to complete two exam essay questions from a list of four provided. Each question will have a word limit of 1500 words and you are not expected to provide a reference list.
+You will be required to undertake an examination (worth 60%) where you will be expected to complete two exam essay questions from a list of four provided. Each question will have a word limit of 1500 words and you are not expected to provide a reference list (but if you do, the list of references will not be included in the word count).
 
-The exam is an option 1 exam which will be available for 24 hours, but the questions are designed to be answered to a high standard in 2 hours. Some individuals will have extra allocated time for the essay, but the exam should not take 24 hours.
+The exam is an option 1 exam which will be available for 24 hours, but the questions are designed to be answered to a high standard in 2 hours. Some individuals will have extra allocated time, but the exam should not take 24 hours.
 
 ---
 
@@ -101,7 +103,7 @@ On successfully completing the module you will be able to...
 ### Module-specific skills:
 
   1. Describe and evaluate **biopsychosocial influences** on women's mental health throughout the reproductive lifecourse
-  2. Design and critically evaluate **research** relevant to wome's reproductive mental health
+  2. Design and critically evaluate **research** relevant to women's reproductive mental health
   3. Describe and evaluate biological, psychological and social approaches to **improve** womens reproductive mental health
 
 ### Discipline-specific skills:
